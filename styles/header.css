@@ -1,0 +1,41 @@
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  background-color: var(--primary);
+  padding: 5px 10%;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+header nav a {
+  color: var(--white);
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+header nav a:hover {
+  filter: drop-shadow(0 2px 1px var(--black));
+}
+
+header .logo img {
+  height: 5rem;
+  transition: all 0.5s;
+  padding: .7rem;
+}
+
+header .logo:hover img {
+  transform: translateY(-5px);
+  filter: drop-shadow(0 5px 1px var(--black));
+}

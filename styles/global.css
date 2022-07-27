@@ -1,0 +1,25 @@
+:root {
+  --white: #eaeaea;
+  --black: #1E1B18;
+  --transparent-black: #1e1b18cd;
+  --primary: #7a152e;
+  --primary2: #d63031;
+  --light-primary: #ff7575b4;
+  --yellow: #ffeaa7;
+  --secondary: #3E92CC;
+  --dark-secondary: #0A2463;
+  --green: #447130;
+  --header-size: 5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: var(--black);
+  color: var(--white);
+}

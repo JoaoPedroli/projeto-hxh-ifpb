@@ -1,0 +1,118 @@
+.presentation {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../assets/hunter-x-hunter-background.png");
+
+}
+
+.presentation > div {
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  transform: translateY(30px);
+  background: var(--transparent-black);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.presentation > div > h3 {
+  width: 60%;
+}
+
+section {
+  width: 100%;
+}
+
+section main > * {
+  padding-bottom: 1rem;
+}
+
+section main > div h1 {
+  margin-bottom: 1rem;
+}
+
+/* ------------------------------------------ */
+
+section main > #plot {
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+section main > #plot > div {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+section main > #plot > div > img {
+  width: 47%;
+}
+
+section main > #plot > div > div {
+  margin-right: 3rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------------------------------------------ */
+
+section main > #world {
+  display: flex;
+}
+
+section main > #world > div {
+  background: #ff7675;
+  color: var(--black);
+  padding: 3rem;
+}
+
+section main > #world > div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section main > #world > img {
+  width: 50%;
+}
+
+/* ------------------------------------------ */
+
+section main > #characters > h1 {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+section main > #characters > section {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+section main > #characters > section > div {
+  background: var(--primary2);
+  color: var(--black);
+}
+
+section main > #characters > section > div > *:not(img) {
+  margin: 1rem;
+}
+
+section main > #characters > section > div > img {
+  width: 100%;
+}
+
+/* ------------------------------------------ */
