@@ -69,4 +69,31 @@
 .circle:hover{
     transform: scale(1.4);
     margin-bottom: 3rem;
+<<<<<<< HEAD
+=======
+}
+
+#nen_types{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+#nen_types div{
+    padding: 20px;
+}
+#nen_types div h1{
+    text-align: center;
+}
+#nen_types img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+#nen_types div:nth-child(odd){
+    background-color: var(--dark-secondary);
+}
+
+#nen_types div:nth-child(even){
+    background-color: var(--green);
+>>>>>>> 81cad6dd49d3cc4960bece9a9d7cdc2b955b5aa9
 }
