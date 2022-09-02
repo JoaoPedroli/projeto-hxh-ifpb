@@ -71,7 +71,7 @@ section main > #world {
 }
 
 section main > #world > div {
-  background: #ff7675;
+  background: var(--light-primary);
   color: var(--black);
   padding: 3rem;
 }
@@ -115,3 +115,13 @@ section main > #characters > section > div > img {
 }
 
 /* ------------------------------------------ */
+
+section main > #credits {
+  width: 100%;
+  background: var(--primary);
+  padding: 2rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
