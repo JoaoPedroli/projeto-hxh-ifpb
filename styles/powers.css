@@ -9,6 +9,11 @@
 #powers > h1 {
   margin-top: 3rem;
 }
+#nen_menu > span {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
 #nen_menu > span > h1 {
   font-size: 2em;
   margin-top: 1rem;
@@ -24,15 +29,48 @@
   text-align: center;
   width: 90%;
 }
-#nen_menu > span {
-  display: flex;
-  justify-content: space-evenly;
-  width: 100%;
-}
 #nen_menu a {
   text-decoration: none;
   color: #000;
 }
+
+@media (max-width: 1000px) {
+  #nen_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #nen_menu > span:last-child {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: .5rem;
+  }
+  .nen_menu_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    margin-top: 2rem;
+  }
+  .nen_menu_item > a {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 720px) {
+  #nen_menu > span:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
 .nen_menu_item {
   max-width: min-content;
   display: flex;
@@ -67,6 +105,7 @@
 .nen_menu_item .circle:hover {
   transform: scale(1.2);
 }
+
 #nen_types {
   margin-top: 2rem;
   padding: 2rem;
@@ -89,4 +128,15 @@
 }
 #nen_types div:nth-child(even) {
   background-color: var(--green);
+}
+
+@media (max-width: 850px) {
+  #nen_types {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 570px) {
+  #nen_types {
+    grid-template-columns: 1fr;
+  }
 }

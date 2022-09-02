@@ -1,0 +1,35 @@
+#characters > h1 {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#characters > section {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+#characters > section > div {
+  background: var(--primary2);
+  color: var(--black);
+}
+
+#characters > section > div > *:not(img) {
+  margin: 1rem;
+}
+
+#characters > section > div > img {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  #characters > section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 550px) {
+  #characters > section {
+    grid-template-columns: 1fr;
+  }
+}
