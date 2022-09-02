@@ -51,7 +51,6 @@
     font-size: 1.2em;
     font-weight: 600;
 }
-
 .circle{
     width: 150px;
     height: 150px;
@@ -70,6 +69,4 @@
 .circle:hover{
     transform: scale(1.4);
     margin-bottom: 3rem;
-
-    
 }
