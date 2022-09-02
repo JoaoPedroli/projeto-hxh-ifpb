@@ -1,4 +1,4 @@
-#powers{
+#powers {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -15,20 +15,17 @@
 }
 #nen_menu > span > h1:last-of-type{
     padding-bottom: 25rem;
-
 }
 #nen_menu > span.menu_title{
     flex-direction: column;
     align-items: center;
-
 }
 #nen_menu > span{
     display: flex;
     position: absolute;
-    left: -5px;
-    align-items:center;
+    align-items: center;
     justify-content: space-evenly;
-    width: 100vw;
+    width: 100%;
     min-height: 80vh;
 }
 #nen_menu{
@@ -59,7 +56,7 @@
     border: solid #000 7px;
     border-radius: 20rem;
     font-weight: bolder;
-    font-size: 1em;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,10 +66,7 @@
 .circle:hover{
     transform: scale(1.4);
     margin-bottom: 3rem;
-<<<<<<< HEAD
-=======
 }
-
 #nen_types{
     padding: 2rem;
     display: grid;
@@ -80,7 +74,7 @@
     gap: 2rem;
 }
 #nen_types div{
-    padding: 20px;
+    padding: 1.5rem;
 }
 #nen_types div h1{
     text-align: center;
@@ -92,8 +86,6 @@
 #nen_types div:nth-child(odd){
     background-color: var(--dark-secondary);
 }
-
 #nen_types div:nth-child(even){
     background-color: var(--green);
->>>>>>> 81cad6dd49d3cc4960bece9a9d7cdc2b955b5aa9
 }
